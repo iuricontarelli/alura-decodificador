@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --exemplo-um: #0A3871;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #F3F5FC;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.1875rem 1.25rem; /* 35px 20px */
+}
+
+.container__img {
+    width: 7.5rem; /* 120px */
+    height: 3rem; /* 48px */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem; /* 40px */
+}
+
+.section__um {
+    margin-top: 7.8125rem; /* 125px */
+    margin-right: 12.5rem; /* 200px */
+}
+
+.section__um__textarea {
+    background: #F3F5FC;
+    color: #0A3871;
+    font-size: 2rem; /* 32px */
+    border: none;
+    width: 50rem; /* 800px */
+    height: 25rem; /* 400px */
+    max-height: 25rem; /* 400px */
+    resize: none;
+    overflow-y: auto;
+}
+
+.section__um__textarea:focus {
+    outline: none;
+}
+
+.section__um__textarea::placeholder {
+    color: #0A3871;
+}
+
+.section__um__p {
+    color: #495057;
+    font-size: 0.75rem; /* 12px */
+    line-height: 150%;
+    opacity: 0.8;
+    vertical-align: middle;
+    padding-top: 9.375rem; /* 150px */
+}
+
+.section__um__img {
+    width: 1rem; /* 16px */
+    height: 1rem; /* 16px */
+    vertical-align: middle;
+}
+
+.section__um__div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 42.5rem; /* 680px */
+    align-items: flex-start;
+    gap: 1.5rem; /* 24px */
+    padding-top: 1.25rem; /* 20px */
+}
+
+.section__um__crip {
+    display: flex;
+    width: 20.5rem; /* 328px */
+    padding: 1.5rem; /* 24px */
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* 8px */
+    border-radius: 1.5rem; /* 24px */
+    border: 0.0625rem solid #0A3871; /* 1px */
+    background: #0A3871;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem; /* 16px */
+    transition: background-color 0.15s;
+}
+
+.section__um__crip:hover {
+    background-color: #072B61;
+}
+
+.section__um__descrip {
+    display: flex;
+    width: 20.5rem; /* 328px */
+    padding: 1.5rem; /* 24px */
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* 8px */
+    border-radius: 1.5rem; /* 24px */
+    border: 0.0625rem solid #0A3871; /* 1px */
+    background: #EFF1FA;
+    cursor: pointer;
+    color: #0A3871;
+    text-align: center;
+    font-size: 1rem; /* 16px */
+    transition: background-color 0.15s;
+}
+
+.section__um__descrip:hover {
+    background-color: #D8DFE8;
+}
+
+.section__dois {
+    width: 34.375rem; /* 550px */
+    height: 51.5625rem; /* 825px */
+    padding-top: 3.125rem; /* 50px */
+    padding-left: 2.5rem; /* 40px */
+    padding-right: 2.5rem; /* 40px */
+    border-radius: 2rem; /* 32px */
+    background: #FFFFFF;
+    box-shadow: 0px 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__dois__img {
+    width: 21rem; /* 336px */
+    height: 19rem; /* 304px */
+}
+
+.section__dois__div {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__dois__span {
+    align-self: stretch;
+    color: #343A40;
+    font-size: 1.5rem; /* 24px */
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 1.25rem; /* 10px */
+}
+
+.section__dois__p {
+    align-self: stretch;
+    color: #495057;
+    font-size: 1rem; /* 16px */
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 1.25rem; /* 20px */
+}
+
+.mensagem-criptografada {
+    color: #495057;
+    font-size: 1.5rem; /* 24px */
+    border: none;
+    width: 31.25rem; /* 500px */
+    height: 34.375rem; /* 550px */
+    max-height: 34.375rem; /* 550px */
+    resize: none;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.mensagem-criptografada:focus {
+    outline: none;
+}
+
+#botao-copiar {
+    margin-top: 6.875rem; /* 110px */
+    display: flex;
+    width: 20.5rem; /* 328px */
+    padding: 1.5rem; /* 24px */
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* 8px */
+    border-radius: 1.5rem; /* 24px */
+    border: 0.0625rem solid #0A3871; /* 1px */
+    background: #FFFFFF;
+    cursor: pointer;
+    color: #0A3871;
+    text-align: center;
+    font-size: 1rem; /* 16px */
+    transition: background-color 0.15s;
+}
+
+#botao-copiar:hover {
+    background-color: #EFF1FA;
+}
+
+.footer {
+    color: #343A40;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilizando a barra de rolagem */
+.section__um__textarea::-webkit-scrollbar {
+    width: 0.625rem; /* 10px */
+}
+
+/* Track (a parte de trás da barra de rolagem) */
+.section__um__textarea::-webkit-scrollbar-track {
+    background: #F3F5FC; /* Cor de fundo */
+}
+
+/* Thumb (o polegar da barra de rolagem) */
+.section__um__textarea::-webkit-scrollbar-thumb {
+    background: #D8DFE8; /* Cor do polegar */
+    border-radius: 0.3125rem; /* 5px */
+}
+
+/* Hover effect on thumb */
+.section__um__textarea::-webkit-scrollbar-thumb:hover {
+    background: #0a387169; /* Altera a cor do polegar ao passar o mouse */
+}
+
+/* Estilizando a barra de rolagem */
+.mensagem-criptografada::-webkit-scrollbar {
+    width: 0.625rem; /* 10px */
+}
+
+/* Track (a parte de trás da barra de rolagem) */
+.mensagem-criptografada::-webkit-scrollbar-track {
+    background: #F3F5FC; /* Cor de fundo */
+}
+
+/* Thumb (o polegar da barra de rolagem) */
+.mensagem-criptografada::-webkit-scrollbar-thumb {
+    background: #D8DFE8; /* Cor do polegar */
+    border-radius: 0.3125rem; /* 5px */
+}
+
+/* Hover effect on thumb */
+.mensagem-criptografada::-webkit-scrollbar-thumb:hover {
+    background: #0a387169; /* Altera a cor do polegar ao passar o mouse */
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        position:relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 1.25rem; /* 20px */
+    }
+    
+    .container__img {
+        width: 4rem; /* 64px */
+        height: 3rem; /* 48px */
+        margin-bottom: 2.25rem; /* 20px */
+    }
+    
+    .section__um {
+        margin-top: 1rem; /* 80px */
+        margin-right: 0.5rem; /* 40px */
+    }
+    
+    .section__um__textarea {
+        width: 100%; /* Alterado para ocupar toda a largura disponível */
+        height: 10rem; /* 160px */
+        max-height: 10rem; /* 160px */
+    }
+    
+    .section__um__p {
+        padding-top: 1.25rem; /* 20px */
+    }
+    
+    .section__um__img {
+        width: 1.5rem; /* 24px */
+        height: 1.5rem; /* 24px */
+    }
+    
+    .section__um__div {
+        width: 100%;
+        padding-top: 1rem; /* 16px */
+        box-sizing: border-box;
+        vertical-align: top;
+        font-size: 0;
+        display: flex;
+    }
+    
+    .section__um__crip,
+    .section__um__descrip {
+        flex: 1;
+        margin-right: 1rem; /* 16px */
+        font-size: initial;
+    }
+
+    .section__um__descrip {
+        margin-right: 0;
+    }
+    
+    .section__dois {
+        margin-top: 35px;
+        width: 100%; /* Alterado para ocupar toda a largura disponível */
+        height: 100%;
+        padding: 1.25rem; /* 20px */
+    }
+
+    .section__dois__img{
+        display: none;
+    }
+    
+    .section__dois__span {
+        font-size: 1.25rem; /* 20px */
+        margin-bottom: 1rem; /* 16px */
+    }
+    
+    .mensagem-criptografada {
+        width: 100%; /* Alterado para ocupar toda a largura disponível */
+        height: 20rem; /* 320px */
+        max-height: 20rem; /* 320px */
+    }
+    
+    #botao-copiar {
+        margin-top: 2.5rem; /* 40px */
+        width: 100%; /* Alterado para ocupar toda a largura disponível */
+    }
+    
+    .footer {
+        position:relative;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    
+}
