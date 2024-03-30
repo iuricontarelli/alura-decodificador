@@ -6,7 +6,7 @@ você informa uma frase/texto e consegue criptografar e descriptografar, e tem c
 
 ## Imagem do projeto
 
-![Imagem do projeto.](https://github.com/iuricontarelli/alura-decodificador/blob/main/img/wallpaper.png)
+![Imagem do projeto.](https://github.com/iuricontarelli/alura-decodificador/blob/main/img/screencapture.png)
 
 
 ## Feedback
